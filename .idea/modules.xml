@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Interitance.iml" filepath="$PROJECT_DIR$/Interitance.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Interitance-grailsPlugins.iml" filepath="$PROJECT_DIR$/Interitance-grailsPlugins.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Inheritance.iml" filepath="$PROJECT_DIR$/Inheritance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Inheritance-grailsPlugins.iml" filepath="$PROJECT_DIR$/Inheritance-grailsPlugins.iml" />
     </modules>
   </component>
 </project>

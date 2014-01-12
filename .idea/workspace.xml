@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce797611-10c1-4474-a2ba-8f8e1608146d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" id="ce797611-10c1-4474-a2ba-8f8e1608146d" name="Default" comment="Initial commit&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/domain/com/grailsurfing/step1/Albatros.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/groovy/com/grailsurfing/step1/Helicopters.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Inheritance-grailsPlugins.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Interitance.iml" afterPath="$PROJECT_DIR$/Inheritance.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/grails-app/domain/com/grailsurfing/step1/FlyingObject.groovy" afterPath="$PROJECT_DIR$/src/groovy/com/grailsurfing/step1/FlyingObject.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/com/grailsurfing/step1/Concorde.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/com/grailsurfing/step1/Concorde.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application.properties" afterPath="$PROJECT_DIR$/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Interitance.iws" />
@@ -71,9 +80,9 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="FlyingObject.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/domain/com/grailsurfing/step1/FlyingObject.groovy">
+        <entry file="file://$PROJECT_DIR$/src/groovy/com/grailsurfing/step1/FlyingObject.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="3" selection-start="32" selection-end="708" vertical-scroll-proportion="-8.1" vertical-offset="0" max-vertical-offset="510">
+            <state line="28" column="7" selection-start="718" selection-end="764" vertical-scroll-proportion="-8.4" vertical-offset="0" max-vertical-offset="540">
               <folding />
             </state>
           </provider>
@@ -82,45 +91,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConcordeController.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/grailsurfing/step1/ConcordeController.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="0" selection-start="865" selection-end="865" vertical-scroll-proportion="-23.47826" vertical-offset="0" max-vertical-offset="1635">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TransactionTemplate.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar:///data/tools/grails-2.3.4/lib/org.springframework/spring-tx/jars/spring-tx-3.2.5.RELEASE-sources.jar!/org/springframework/transaction/support/TransactionTemplate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="132" column="0" selection-start="5140" selection-end="5140" vertical-scroll-proportion="0.0" vertical-offset="1299" max-vertical-offset="2355">
-              <folding>
-                <element signature="e#0#6647#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#2730#2757#0" expanded="false" />
-                <element signature="e#4309#4310#0" expanded="false" />
-                <element signature="e#4360#4361#0" expanded="false" />
-                <element signature="e#4491#4492#0" expanded="false" />
-                <element signature="e#4528#4529#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FlyingObjectController.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/grailsurfing/step1/FlyingObjectController.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="9.130435" vertical-offset="210" max-vertical-offset="1635">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Concorde.groovy" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Concorde.groovy" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grails-app/domain/com/grailsurfing/step1/Concorde.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="27" selection-start="27" selection-end="27" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="450">
+            <state line="2" column="35" selection-start="55" selection-end="67" vertical-scroll-proportion="0.0591716" vertical-offset="0" max-vertical-offset="510">
               <folding />
             </state>
           </provider>
@@ -129,37 +103,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConcordeControllerSpec.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/unit/com/grailsurfing/step1/ConcordeControllerSpec.groovy">
+      <file leaf-file-name="Albatros.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/domain/com/grailsurfing/step1/Albatros.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="2265">
+            <state line="2" column="26" selection-start="58" selection-end="58" vertical-scroll-proportion="-0.6" vertical-offset="0" max-vertical-offset="255">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Helicopters.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/groovy/com/grailsurfing/step1/Helicopters.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="5" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConcordeSpec.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/unit/com/grailsurfing/step1/ConcordeSpec.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="24" selection-start="331" selection-end="345" vertical-scroll-proportion="-10.434783" vertical-offset="0" max-vertical-offset="375">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FlyingObjectControllerSpec.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/unit/com/grailsurfing/step1/FlyingObjectControllerSpec.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="2265">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FlyingObjectSpec.groovy" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="FlyingObjectSpec.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/unit/com/grailsurfing/step1/FlyingObjectSpec.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="534">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="375">
               <folding />
             </state>
           </provider>
@@ -168,7 +136,98 @@
       <file leaf-file-name="DataSource.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="60" selection-start="639" selection-end="639" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
+            <state line="27" column="30" selection-start="827" selection-end="827" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="945">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JAVA/com.grailsurfing.step1.Osprey" pinned="false" current="false" current-in-tab="false">
+        <entry file="uml://JAVA/com.grailsurfing.step1.Osprey">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>com.grailsurfing.step1.Osprey</OriginalElement>
+              <nodes>
+                <node x="0.0" y="80.0">groovy.lang.GroovyObjectSupport</node>
+                <node x="114.36363636363636" y="240.0">com.grailsurfing.step1.Helicopters</node>
+                <node x="128.57954545454544" y="0.0">groovy.lang.GroovyObject</node>
+                <node x="160.11363636363635" y="320.0">com.grailsurfing.step1.Osprey</node>
+                <node x="75.82954545454545" y="160.0">com.grailsurfing.step1.FlyingObject</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="groovy.lang.GroovyObjectSupport" target="groovy.lang.GroovyObject">
+                  <point x="0.0" y="-15.0" />
+                  <point x="84.0" y="55.0" />
+                  <point x="143.45454545454544" y="55.0" />
+                  <point x="-44.625" y="15.0" />
+                </edge>
+                <edge source="com.grailsurfing.step1.Osprey" target="com.grailsurfing.step1.Helicopters">
+                  <point x="-19.5" y="-15.0" />
+                  <point x="179.61363636363635" y="295.0" />
+                  <point x="167.36363636363637" y="295.0" />
+                  <point x="0.0" y="15.0" />
+                </edge>
+                <edge source="com.grailsurfing.step1.Osprey" target="groovy.lang.GroovyObject">
+                  <point x="19.500000000000004" y="-15.0" />
+                  <point x="218.61363636363637" y="295.0" />
+                  <point x="230.86363636363637" y="295.0" />
+                  <point x="230.86363636363637" y="55.0" />
+                  <point x="232.70454545454544" y="55.0" />
+                  <point x="44.625" y="15.0" />
+                </edge>
+                <edge source="com.grailsurfing.step1.FlyingObject" target="groovy.lang.GroovyObject">
+                  <point x="28.25" y="-15.0" />
+                  <point x="160.57954545454544" y="135.0" />
+                  <point x="178.5" y="135.0" />
+                  <point x="178.5" y="55.0" />
+                  <point x="173.20454545454544" y="55.0" />
+                  <point x="-14.875" y="15.0" />
+                </edge>
+                <edge source="com.grailsurfing.step1.Helicopters" target="groovy.lang.GroovyObject">
+                  <point x="26.5" y="-15.0" />
+                  <point x="193.86363636363637" y="215.0" />
+                  <point x="203.375" y="215.0" />
+                  <point x="14.875" y="15.0" />
+                </edge>
+                <edge source="com.grailsurfing.step1.Helicopters" target="com.grailsurfing.step1.FlyingObject">
+                  <point x="-26.5" y="-15.0" />
+                  <point x="140.86363636363637" y="215.0" />
+                  <point x="132.32954545454544" y="215.0" />
+                  <point x="0.0" y="15.0" />
+                </edge>
+                <edge source="com.grailsurfing.step1.FlyingObject" target="groovy.lang.GroovyObjectSupport">
+                  <point x="-28.25" y="-15.0" />
+                  <point x="104.07954545454545" y="135.0" />
+                  <point x="84.0" y="135.0" />
+                  <point x="0.0" y="15.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="-308.0" y="158.5" />
+              <SelectedNodes>
+                <node>com.grailsurfing.step1.Osprey</node>
+              </SelectedNodes>
+              <Categories />
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BuildConfig.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="51" column="5" selection-start="2509" selection-end="2509" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1185">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.properties" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="0" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
               <folding />
             </state>
           </provider>
@@ -188,12 +247,20 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/test/unit/com/grailsurfing/step1/ConcordeSpec.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/domain/com/grailsurfing/step1/Concorde.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/com/grailsurfing/step1/ConcordeController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/com/grailsurfing/step1/FlyingObjectController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/com/grailsurfing/step1/FlyingObject.groovy" />
+        <option value="$PROJECT_DIR$/application.properties" />
+        <option value="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
+        <option value="$PROJECT_DIR$/src/groovy/com/grailsurfing/step1/Helicopters.groovy" />
+        <option value="$PROJECT_DIR$/src/groovy/com/grailsurfing/step1/Airplanes.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/domain/com/grailsurfing/step1/Osprey.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/domain/com/grailsurfing/step1/Tomcat.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/domain/com/grailsurfing/step1/Pidgeon.groovy" />
+        <option value="$PROJECT_DIR$/src/groovy/com/grailsurfing/step1/FlyingObject.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/domain/com/grailsurfing/step1/Albatros.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/domain/com/grailsurfing/step1/Concorde.groovy" />
       </list>
     </option>
   </component>
@@ -236,6 +303,30 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Interitance" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Interitance" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Interitance" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Interitance" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grails-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -261,6 +352,15 @@
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/groovy" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.grailsurfing.step1" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.grailsurfing.step1" />
+    </key>
   </component>
   <component name="RunManager" selected="Grails.Grails:Interitance">
     <configuration default="false" name="ConcordeSpec" type="GrailsRunConfigurationType" factoryName="Grails" singleton="true" temporary="true">
@@ -295,6 +395,15 @@
         <option name="LOCAL" value="true" />
       </RunnerSettings>
       <ConfigurationWrapper RunnerId="GrailsMavenDebuggerRunner" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails" singleton="true">
@@ -470,7 +579,7 @@
       <method />
     </configuration>
     <configuration default="false" name="Grails:Interitance" type="GrailsRunConfigurationType" factoryName="Grails" singleton="true">
-      <module name="Interitance" />
+      <module name="Inheritance" />
       <setting name="vmparams" value="" />
       <setting name="cmdLine" value="run-app" />
       <setting name="depsClasspath" value="false" />
@@ -524,12 +633,21 @@
       <changelist id="ce797611-10c1-4474-a2ba-8f8e1608146d" name="Default" comment="" />
       <created>1389463981041</created>
       <updated>1389463981041</updated>
-      <workItem from="1389463984910" duration="5529000" />
+      <workItem from="1389463984910" duration="9542000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit&#10;">
+      <created>1389565695987</created>
+      <updated>1389565695987</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initial commit&#10;">
+      <created>1389565718877</created>
+      <updated>1389565718877</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5529000" />
+    <option name="totallyTimeSpent" value="9542000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1680" height="1024" extended-state="0" />
@@ -556,9 +674,11 @@
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37748346" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17948718" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -577,6 +697,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="Initial commit&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -590,13 +712,6 @@
             <element signature="imports" expanded="false" />
             <element signature="e#1103#1141#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="33" selection-start="2371" selection-end="2371" vertical-scroll-proportion="0.0" vertical-offset="355" max-vertical-offset="1185">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -622,38 +737,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="60" selection-start="639" selection-end="639" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/grailsurfing/step1/ConcordeController.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="37" column="0" selection-start="865" selection-end="865" vertical-scroll-proportion="-23.47826" vertical-offset="0" max-vertical-offset="1635">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/grailsurfing/step1/FlyingObject.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="3" selection-start="32" selection-end="708" vertical-scroll-proportion="-8.1" vertical-offset="0" max-vertical-offset="510">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/grailsurfing/step1/Concorde.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="27" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="463">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/unit/com/grailsurfing/step1/ConcordeControllerSpec.groovy">
@@ -684,14 +772,143 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="5" selection-start="2509" selection-end="2509" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1185">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/groovy/com/grailsurfing/step1/Helicopters.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="5" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="30" selection-start="827" selection-end="827" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="945">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.grailsurfing.step1.Osprey">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.grailsurfing.step1.Osprey</OriginalElement>
+          <nodes>
+            <node x="0.0" y="80.0">groovy.lang.GroovyObjectSupport</node>
+            <node x="114.36363636363636" y="240.0">com.grailsurfing.step1.Helicopters</node>
+            <node x="128.57954545454544" y="0.0">groovy.lang.GroovyObject</node>
+            <node x="160.11363636363635" y="320.0">com.grailsurfing.step1.Osprey</node>
+            <node x="75.82954545454545" y="160.0">com.grailsurfing.step1.FlyingObject</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="groovy.lang.GroovyObjectSupport" target="groovy.lang.GroovyObject">
+              <point x="0.0" y="-15.0" />
+              <point x="84.0" y="55.0" />
+              <point x="143.45454545454544" y="55.0" />
+              <point x="-44.625" y="15.0" />
+            </edge>
+            <edge source="com.grailsurfing.step1.Osprey" target="com.grailsurfing.step1.Helicopters">
+              <point x="-19.5" y="-15.0" />
+              <point x="179.61363636363635" y="295.0" />
+              <point x="167.36363636363637" y="295.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="com.grailsurfing.step1.Osprey" target="groovy.lang.GroovyObject">
+              <point x="19.500000000000004" y="-15.0" />
+              <point x="218.61363636363637" y="295.0" />
+              <point x="230.86363636363637" y="295.0" />
+              <point x="230.86363636363637" y="55.0" />
+              <point x="232.70454545454544" y="55.0" />
+              <point x="44.625" y="15.0" />
+            </edge>
+            <edge source="com.grailsurfing.step1.FlyingObject" target="groovy.lang.GroovyObject">
+              <point x="28.25" y="-15.0" />
+              <point x="160.57954545454544" y="135.0" />
+              <point x="178.5" y="135.0" />
+              <point x="178.5" y="55.0" />
+              <point x="173.20454545454544" y="55.0" />
+              <point x="-14.875" y="15.0" />
+            </edge>
+            <edge source="com.grailsurfing.step1.Helicopters" target="groovy.lang.GroovyObject">
+              <point x="26.5" y="-15.0" />
+              <point x="193.86363636363637" y="215.0" />
+              <point x="203.375" y="215.0" />
+              <point x="14.875" y="15.0" />
+            </edge>
+            <edge source="com.grailsurfing.step1.Helicopters" target="com.grailsurfing.step1.FlyingObject">
+              <point x="-26.5" y="-15.0" />
+              <point x="140.86363636363637" y="215.0" />
+              <point x="132.32954545454544" y="215.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="com.grailsurfing.step1.FlyingObject" target="groovy.lang.GroovyObjectSupport">
+              <point x="-28.25" y="-15.0" />
+              <point x="104.07954545454545" y="135.0" />
+              <point x="84.0" y="135.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-308.0" y="158.5" />
+          <SelectedNodes>
+            <node>com.grailsurfing.step1.Osprey</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/groovy/com/grailsurfing/step1/FlyingObject.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="7" selection-start="718" selection-end="764" vertical-scroll-proportion="-8.4" vertical-offset="0" max-vertical-offset="540">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/grailsurfing/step1/Albatros.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="26" selection-start="58" selection-end="58" vertical-scroll-proportion="-0.6" vertical-offset="0" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/grailsurfing/step1/Concorde.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="35" selection-start="55" selection-end="67" vertical-scroll-proportion="0.0591716" vertical-offset="0" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+    </entry>
   </component>
   <component name="grailsSettings">
     <option name="map">
       <map>
-        <entry key="Interitance">
+        <entry key="Inheritance">
           <value>
             <GrailsSettings>
-              <option name="buildConfigCrc" value="-253281706" />
+              <option name="buildConfigCrc" value="-246021931" />
               <option name="pluginDependenciesCrc" value="-700768440" />
               <option name="properties">
                 <map>
@@ -704,7 +921,7 @@
             </GrailsSettings>
           </value>
         </entry>
-        <entry key="Interitance-grailsPlugins">
+        <entry key="Inheritance-grailsPlugins">
           <value>
             <GrailsSettings />
           </value>

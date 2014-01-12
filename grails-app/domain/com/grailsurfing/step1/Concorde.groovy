@@ -21,4 +21,8 @@ class Concorde extends FlyingObject{
     static constraints = {
         currentPassengerNb nullable: false, min: 0, max: 200
     }
+
+    def doFly(){
+        return super.doFly() + " like an Airplane!"
+    }
 }
