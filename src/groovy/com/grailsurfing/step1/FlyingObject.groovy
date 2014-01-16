@@ -4,8 +4,6 @@ class FlyingObject {
 
     Integer flyingTimeMin = 0
 
-    Integer seatsNb
-
     Integer dummyProperty
 
     //all property names listed in transients will not be persisted
@@ -14,7 +12,6 @@ class FlyingObject {
     //when you extends an other class with FlyingObject this constraints will be shared
     static constraints = {
         flyingTimeMin nullable: false, min: 0
-        seatsNb nullable: false, min: 1
     }
 
     static mapping = {

@@ -1,6 +1,6 @@
 package com.grailsurfing.step1
 
-class Concorde extends FlyingObject{
+class Concorde extends Vehicle{
 
     Integer currentPassengerNb
 
