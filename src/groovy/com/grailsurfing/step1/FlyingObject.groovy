@@ -14,14 +14,8 @@ class FlyingObject {
         flyingTimeMin nullable: false, min: 0
     }
 
-    static mapping = {
-        // if false 2 different table will be created
-        // if true only one table will be created with a 'class' column used by hibernate to cast the record to the right
-        // domain class
-        tablePerHierarchy false
-    }
 
     def doFly(){
-       return "I'm flying "
+        return "I'm flying "
     }
 }

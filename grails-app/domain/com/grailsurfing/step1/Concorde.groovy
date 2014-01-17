@@ -2,6 +2,10 @@ package com.grailsurfing.step1
 
 class Concorde extends Vehicle{
 
+    FlyingObject flyingObject
+
+    static embedded = ['flyingObject']
+
     Integer currentPassengerNb
 
     //static properties are not persisted
@@ -23,6 +27,6 @@ class Concorde extends Vehicle{
     }
 
     def doFly(){
-        return super.doFly() + " like an Airplane!"
+        return flyingObject.doFly() + " like an Airplane!"
     }
 }

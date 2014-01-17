@@ -1,11 +1,15 @@
 package com.grailsurfing.step1
 
-class Eagle extends FlyingObject {
+class Eagle {
+
+    FlyingObject flyingObject
+
+    static embedded = ['flyingObject']
 
     static constraints = {
     }
 
     def doFly(){
-        return super.doFly() + " like an eagle!"
+        return flyingObject.doFly() + " like an eagle!"
     }
 }

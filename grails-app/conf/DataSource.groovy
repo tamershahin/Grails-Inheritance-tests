@@ -28,7 +28,7 @@ environments {
             dbCreate = "create-drop" // one of 'create', 'create-drop','update'
             url = "jdbc:mysql://localhost/inheritance?autoReconnect=true&useUnicode=yes&characterEncoding=UTF-8"
             username = "inheritance"
-            password = "inheritance"
+            password = ""
         }
     }
     test {
