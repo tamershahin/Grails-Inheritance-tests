@@ -2,9 +2,6 @@ package com.grailsurfing.step1
 
 class FlyingObject {
 
-    // services injected in classes used in DC with @Delegate are 100% valid
-    def flyingService
-
     Integer flyingTimeMin = 0
 
     Integer dummyProperty

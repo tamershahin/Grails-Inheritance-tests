@@ -28,13 +28,17 @@
         <thead>
         <tr>
 
+            <g:sortableColumn property="seatsNb"
+                              title="${message(code: 'concorde.seatsNb.label', default: 'Seats Nb')}"/>
+
+            <g:sortableColumn property="vehicleName"
+                              title="${message(code: 'concorde.vehicleName.label', default: 'Vehicle Name')}"/>
+
             <g:sortableColumn property="flyingTimeMin"
                               title="${message(code: 'concorde.flyingTimeMin.label', default: 'Flying Time Min')}"/>
 
             <g:sortableColumn property="currentPassengerNb"
                               title="${message(code: 'concorde.currentPassengerNb.label', default: 'Current Passenger Nb')}"/>
-
-            <th><g:message code="concorde.vehicle.label" default="Vehicle"/></th>
 
         </tr>
         </thead>
@@ -43,11 +47,13 @@
             <tr class="${(i % 2) == 0 ? 'even' : 'odd'}">
 
                 <td><g:link action="show"
-                            id="${concordeInstance.id}">${fieldValue(bean: concordeInstance, field: "flyingTimeMin")}</g:link></td>
+                            id="${concordeInstance.id}">${fieldValue(bean: concordeInstance, field: "seatsNb")}</g:link></td>
+
+                <td>${fieldValue(bean: concordeInstance, field: "vehicleName")}</td>
+
+                <td>${fieldValue(bean: concordeInstance, field: "flyingTimeMin")}</td>
 
                 <td>${fieldValue(bean: concordeInstance, field: "currentPassengerNb")}</td>
-
-                <td>${fieldValue(bean: concordeInstance, field: "vehicle")}</td>
 
             </tr>
         </g:each>

@@ -27,6 +27,28 @@
     </g:if>
     <ol class="property-list concorde">
 
+        <g:if test="${concordeInstance?.seatsNb}">
+            <li class="fieldcontain">
+                <span id="seatsNb-label" class="property-label"><g:message code="concorde.seatsNb.label"
+                                                                           default="Seats Nb"/></span>
+
+                <span class="property-value" aria-labelledby="seatsNb-label"><g:fieldValue bean="${concordeInstance}"
+                                                                                           field="seatsNb"/></span>
+
+            </li>
+        </g:if>
+
+        <g:if test="${concordeInstance?.vehicleName}">
+            <li class="fieldcontain">
+                <span id="vehicleName-label" class="property-label"><g:message code="concorde.vehicleName.label"
+                                                                               default="Vehicle Name"/></span>
+
+                <span class="property-value" aria-labelledby="vehicleName-label"><g:fieldValue
+                        bean="${concordeInstance}" field="vehicleName"/></span>
+
+            </li>
+        </g:if>
+
         <g:if test="${concordeInstance?.flyingTimeMin}">
             <li class="fieldcontain">
                 <span id="flyingTimeMin-label" class="property-label"><g:message code="concorde.flyingTimeMin.label"
@@ -45,17 +67,6 @@
 
                 <span class="property-value" aria-labelledby="currentPassengerNb-label"><g:fieldValue
                         bean="${concordeInstance}" field="currentPassengerNb"/></span>
-
-            </li>
-        </g:if>
-
-        <g:if test="${concordeInstance?.vehicle}">
-            <li class="fieldcontain">
-                <span id="vehicle-label" class="property-label"><g:message code="concorde.vehicle.label"
-                                                                           default="Vehicle"/></span>
-
-                <span class="property-value" aria-labelledby="vehicle-label"><g:link controller="vehicle" action="show"
-                                                                                     id="${concordeInstance?.vehicle?.id}">${concordeInstance?.vehicle?.encodeAsHTML()}</g:link></span>
 
             </li>
         </g:if>
